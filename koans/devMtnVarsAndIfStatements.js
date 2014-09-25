@@ -1,6 +1,7 @@
 describe("About variables and If Statments", function() {
   it("should create a variable called myFirstVariable and set it equal to 1", function() {
     //code goes here.
+    var myFirstVariable = 1;
     expect(myFirstVariable).toBe(1);
   });
 
@@ -18,7 +19,7 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('C');
   });
 
   it("should understand equality operators", function () {
@@ -35,9 +36,9 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('B');
 
-    //explain your answer here.
+    //Because it only has two equal signs and it checks for equal values, not types.
   });
 
   it("should understand equality operators, again", function () {
@@ -54,23 +55,23 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('C');
 
-    //explain your answer here.
+    //One equal sign assigns a value, here it's been assined 12.
   });
 
   it('should understand adding strings', function(){
     var num = '3';
-    expect(num + 8).toBe(FILL_ME_IN);
+    expect(num + 8).toBe('38');
 
-    //explain your answer here.
+    //Because numbers and strings cannot add it concatenates both in a string.
   });
 
   it('should understand adding strings, again', function(){
     var num = '1';
-    expect(num + FILL_ME_IN).toBe('18');
+    expect(num + 8).toBe('18');
 
-    //explain your answer here.
+    //Same as before.
   });
 });
 
